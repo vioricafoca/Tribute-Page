@@ -1,0 +1,153 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: inline-table	;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar {
+    font-size: 1.3rem;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: -apple-system;
+    margin-bottom: 0;
+    color: rgb(60, 60, 60);
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+p {
+    font-style: oblique;
+    color: #5c5d63;
+    display: block;
+    font-size: 1.9em;
+    font-weight: lighter;
+    margin-top: 40px;
+
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4f485c;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #864db9;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #d7f2f4;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.smaller-image {
+    height: 450px;
+    width: 450px;
+}
+
+.thick-gri-border {
+    border-color: whitesmoke;
+    border-width: 20px 30px 50px 30px;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+#img-div {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 1.9rem;
+    line-height: 1.5em;
+}
+
+li {
+    margin: 16px 0;
+}
+
+i {
+    margin: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+ol {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.9rem;
+}
